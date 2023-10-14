@@ -7,17 +7,17 @@ namespace Messages;
  */
 class MessageType
 {
-    public const SUCCESS = 'Success';
-    public const ERROR = 'Error';
-    public const NOTICE = 'Notice';
-    public const WARNING = 'Warning';
-    public const AUTHORIZATION = 'Authorization';
+    public const SUCCESS = 'success';
+    public const ERROR = 'error';
+    public const NOTICE = 'notice';
+    public const WARNING = 'warning';
+    public const AUTHORIZATION = 'authorization';
 
     public const TYPES = [
-        self::SUCCESS => 'Успех',
-        self::ERROR => 'Ошибка',
-        self::NOTICE => 'Уведомление',
-        self::WARNING => 'Предупреждение',
-        self::AUTHORIZATION => 'Авторизация',
+        self::SUCCESS => 'успех',
+        self::ERROR => 'ошибка',
+        self::NOTICE => 'уведомление',
+        self::WARNING => 'предупреждение',
+        self::AUTHORIZATION => 'авторизация',
     ];
 }
